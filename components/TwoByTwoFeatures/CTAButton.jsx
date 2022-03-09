@@ -15,7 +15,7 @@ export const CTAButton = (props) => {
       transition="all 0.2s"
       rounded="lg"
       outline={0}
-      bg='#CD3C3F'
+      bg="blue.600"
       _focus={{
         shadow: 'outline',
       }}
@@ -23,7 +23,7 @@ export const CTAButton = (props) => {
         transform: 'translateY(2px)',
       }}
       _hover={{
-        bg: '#b93639',
+        bg: 'blue.700',
       }}
       {...rest}
     >
