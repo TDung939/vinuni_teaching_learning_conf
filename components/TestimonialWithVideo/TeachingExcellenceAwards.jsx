@@ -47,7 +47,16 @@ const TeachingExcellenceAwards = () => {
           gap="64px"
         >
           <Box>
-            <Heading size="3xl" fontWeight="extrabold">
+            <Text
+              size="xs"
+              textTransform="uppercase"
+              fontWeight="semibold"
+              color='#CD3C3F'
+              letterSpacing="wide"
+            >
+              Celebrating the impact of teachers on learning
+            </Text>
+            <Heading mt='6' size="3xl" fontWeight="extrabold">
               TEACHING  <Text as='marker' color='#CD3C3F'>EXCELLENCE</Text> AWARDS
             </Heading>
             <Text mt="6" mb="8" fontSize="lg">
