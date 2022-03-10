@@ -1,4 +1,5 @@
 import { Box } from '@chakra-ui/react'
+import CTAProposals from '../components/CTAProposals'
 import Footer from '../components/FooterWithFourColumns/Footer'
 import Hero from '../components/HeroWithVideo/Hero'
 import Partnership from '../components/LogoGridWithTiles/App'
@@ -16,6 +17,7 @@ export default function Home() {
       <NavbarWithSubmenu />
       <Hero />
       <AgendaThemes />
+      <CTAProposals />
       <TeachingExcellenceAwards/>
       <RegistrationModel/>
       {/* <Speakers />
