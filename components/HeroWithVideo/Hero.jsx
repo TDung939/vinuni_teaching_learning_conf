@@ -70,7 +70,7 @@ const Hero = () => {
               Co-Creating Learning for the Future
             </Heading>
             <Text color='gray.600' mt="4" fontSize="lg" fontWeight="medium">
-              Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec. Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec.
+            “If we teach today’s students as we taught yesterday’s, we rob them of tomorrow.” <br/> ― John Dewey
             </Text>
             <Stack
               direction={{
