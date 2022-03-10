@@ -62,14 +62,9 @@ const TeachingExcellenceAwards = () => {
               Nominate now
             </Button>
             <Testimonial
-              logo={<SampleLogo />}
-              author="Susan Mana"
-              company="Executive director"
-              image="https://images.unsplash.com/photo-1531078215167-91fcfe45b39e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2598&q=80"
+              author="Guy Kawasaki"
             >
-              &ldquo; At volutpat diam ut venenatis tellus. Sit amet consectetur adipiscing elit
-              duis. Quis hendrerit dolor magna eget est. Amet est placerat in egestas erat imperdiet
-              sed euismod. &rdquo;
+              &ldquo; If you have to put someone on a pedestal, put teachers. They are society&apos;s heroes &rdquo;
             </Testimonial>
           </Box>
           <Box>

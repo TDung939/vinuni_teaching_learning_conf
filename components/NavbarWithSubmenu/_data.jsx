@@ -5,11 +5,11 @@ import { MdWeb } from 'react-icons/md'
 export const links = [
   {
     label: 'Home',
-    href: '#',
+    href: '/',
   },
   {
-    label: 'Agenda',
-    href: '#',
+    label: 'Schedule',
+    href: '/schedule',
   },
   // {
   //   label: 'Resources',
@@ -40,20 +40,20 @@ export const links = [
   //     },
   //   ],
   // },
-  {
-    label: 'Speakers',
-    href: '#',
-  },
-  {
-    label: 'Host Partners',
-    href: '#',
-  },
-  {
-    label: 'Community',
-    href: '#',
-  },
-  {
-    label: 'FAQ',
-    href: '#',
-  },
+  // {
+  //   label: 'Speakers',
+  //   href: '',
+  // },
+  // {
+  //   label: 'Host Partners',
+  //   href: '#',
+  // },
+  // {
+  //   label: 'Community',
+  //   href: '#',
+  // },
+  // {
+  //   label: 'FAQ',
+  //   href: '#',
+  // },
 ]

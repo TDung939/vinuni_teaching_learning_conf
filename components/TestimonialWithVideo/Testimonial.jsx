@@ -25,7 +25,7 @@ export const Testimonial = (props) => {
         {children}
       </Text>
       <HStack spacing="4" mt="8">
-        <Img alt={author} w="12" h="12" rounded="full" objectFit="cover" src={image} />
+        {/* <Img alt={author} w="12" h="12" rounded="full" objectFit="cover" src={image} /> */}
         <Box>
           <Text as="cite" fontStyle="normal" fontWeight="bold">
             {author}

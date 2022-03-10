@@ -12,7 +12,7 @@ import * as React from 'react'
 import { DurationSwitcher } from './DurationSwitch'
 import { PricingCard } from './PricingCard'
 
-const RegistrationPrice = () => {
+const RegistrationModel = () => {
   return (
     <Box as="section" py="24">
       <Box
@@ -37,7 +37,7 @@ const RegistrationPrice = () => {
         >
           <Heading
             as="h1"
-            size="2xl"
+            size="xl"
             letterSpacing="tight"
             fontWeight="extrabold"
             textAlign={{
@@ -45,9 +45,9 @@ const RegistrationPrice = () => {
               md: 'center',
             }}
           >
-            Find the perfect plan for you
+            PARTNERSHIPS
           </Heading>
-          <Text
+          {/* <Text
             mt="4"
             fontSize="xl"
             textAlign={{
@@ -57,8 +57,8 @@ const RegistrationPrice = () => {
             color={mode('gray.600', 'gray.400')}
           >
             For growing teams and businesses
-          </Text>
-          <DurationSwitcher mt="10" />
+          </Text> */}
+          {/* <DurationSwitcher mt="10" /> */}
         </Flex>
 
         <Flex
@@ -77,18 +77,9 @@ const RegistrationPrice = () => {
         >
           <PricingCard
             flex="1"
-            colorScheme="blue"
-            name="Basic"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            price="$10"
-            duration="Per user per month"
-            extras="Additional storage: $25 / TB / month"
-            features={[
-              '100 GB per user',
-              'Support for all file types',
-              'PDF reviews',
-              'Commenting and notifications',
-            ]}
+            colorScheme="red"
+            name="Universities and High Schools in Vietnam"
+            description="Faculty and student Co-Lead or co- facilitate sessions"
           />
           <Box
             w={{
@@ -102,20 +93,11 @@ const RegistrationPrice = () => {
             }}
             bg={mode('gray.100', 'gray.600')}
           />
-          <PricingCard
+           <PricingCard
             flex="1"
             colorScheme="red"
-            name="Plus"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            price="$50"
-            duration="Per user per month"
-            extras="Additional storage: $25 / TB / month"
-            features={[
-              '100 GB per user',
-              'Support for all file types',
-              'PDF reviews',
-              'Commenting and notifications',
-            ]}
+            name="Educational Service Providers"
+            description="We invite Edutech providers to put up booths at the conference venue. Product demos are allowed."
           />
           <Box
             w={{
@@ -129,20 +111,11 @@ const RegistrationPrice = () => {
             }}
             bg={mode('gray.100', 'gray.600')}
           />
-          <PricingCard
+           <PricingCard
             flex="1"
             colorScheme="red"
-            name="Plus"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            price="$50"
-            duration="Per user per month"
-            extras="Additional storage: $25 / TB / month"
-            features={[
-              '100 GB per user',
-              'Support for all file types',
-              'PDF reviews',
-              'Commenting and notifications',
-            ]}
+            name="Not for Profit organizations"
+            description="Participate in panels, share educational support programs"
           />
         </Flex>
         
@@ -151,4 +124,4 @@ const RegistrationPrice = () => {
   )
 }
 
-export default RegistrationPrice
+export default RegistrationModel

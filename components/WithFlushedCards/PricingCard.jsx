@@ -47,7 +47,7 @@ export const PricingCard = (props) => {
       }}
       {...rest}
     >
-      <Heading>{name}</Heading>
+      <Heading fontSize='3xl'>{name}</Heading>
       <Divider
         opacity={1}
         borderWidth="2px"
@@ -60,7 +60,7 @@ export const PricingCard = (props) => {
         {description}
       </Text>
 
-      <Box mt="2">
+      {/* <Box mt="2">
         <Text
           fontSize={{
             base: '6xl',
@@ -93,7 +93,7 @@ export const PricingCard = (props) => {
             </PricingDetail>
           ))}
         </List>
-      </Box>
+      </Box> */}
     </Box>
   )
 }

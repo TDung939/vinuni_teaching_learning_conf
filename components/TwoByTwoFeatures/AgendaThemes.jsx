@@ -17,6 +17,8 @@ const AgendaThemes = () => (
       md: '8',
     }}
   >
+
+
     <Heading
       textAlign='center'
       size="xl"
@@ -24,7 +26,7 @@ const AgendaThemes = () => (
       fontWeight="extrabold"
       mt='8'
     >
-      EXPLORE THE CONFERENCE THEMES
+      THE CONFERENCE THEMES
     </Heading>
     <Text
       size="xs"
@@ -35,8 +37,9 @@ const AgendaThemes = () => (
       color='#CD3C3F'
       letterSpacing="wide"
     >
-      Top Themes
+      EXPLORE  Themes
     </Text>
+
     <SimpleGrid
       mt='12'
       columns={{
@@ -46,32 +49,32 @@ const AgendaThemes = () => (
       spacingX="10"
       spacingY={{
         base: '8',
-        md: '16',
+        md: '24',
       }}
     >
       <Feature title="Co-Creating Learning Experiences through Student Partnership" icon={<FcManager />}>
-        At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-        takimata sanctus.
+        {/* At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+        takimata sanctus. */}
       </Feature>
       <Feature title="Entrepreneurship Education" icon={<FcTimeline />}>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-        invidunt ut labore.
+        {/* Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+        invidunt ut labore. */}
       </Feature>
       <Feature title="Active & Experiential Learning" icon={<FcDoughnutChart />}>
-        At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-        takimata sanctus.
+        {/* At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+        takimata sanctus. */}
       </Feature>
       <Feature title="Technology to Build Learning Connections" icon={<FcMultipleDevices />}>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-        invidunt ut labore.
+        {/* Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+        invidunt ut labore. */}
       </Feature>
       <Feature title="Leave No Child Behind: Inclusive Teaching Practices" icon={<FcRadarPlot />}>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-        invidunt ut labore.
+        {/* Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+        invidunt ut labore. */}
       </Feature>
       <Feature title="Industry and Community Partnerships to Enhance Learning" icon={<FcBusiness />}>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-        invidunt ut labore.
+        {/* Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+        invidunt ut labore. */}
       </Feature>
     </SimpleGrid>
   </Box>

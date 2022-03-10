@@ -2,6 +2,7 @@ import {
   Box,
   Button,
   Flex,
+  Heading,
   HStack,
   Img,
   useColorModeValue as mode,
@@ -68,7 +69,8 @@ const DesktopNavContent = (props) => {
     <Flex className="nav-content__desktop" align="center" justify="space-between" {...props}>
       <Link href='/' passHref>
         <Box as="a" href="#" rel="home">
-          <Img src='logo.png' maxH='32px'/>
+          <Img src='logo.png' maxH='24px'/>
+          <Heading as='marker' mt='2' fontSize='xs'>TEACHING AND LEARNING CONFERENCE 2022</Heading>
         </Box>
       </Link>
       <HStack as="ul" id="nav__primary-menu" aria-label="Main Menu" listStyleType="none">
@@ -83,12 +85,11 @@ const DesktopNavContent = (props) => {
         ))}
       </HStack>    
       <Button 
-        as="a" 
-        href="#"
         bg='none'
         color='#CD3C3F'
         border='2px #CD3C3F solid'
         fontWeight="bold"
+        disabled
       >
         Register now
       </Button>

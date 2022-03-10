@@ -8,7 +8,7 @@ import ScheduleComponent from '../components/Schedule/Schedule'
 import Speakers from '../components/SpeakersWithCentredLayout/Speakers'
 import TeachingExcellenceAwards from '../components/TestimonialWithVideo/TeachingExcellenceAwards'
 import AgendaThemes from '../components/TwoByTwoFeatures/AgendaThemes'
-import RegistrationPrice from '../components/WithFlushedCards/RegistrationPrice'
+import RegistrationModel from '../components/WithFlushedCards/PartnershipsModel'
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
       <Hero />
       <AgendaThemes />
       <TeachingExcellenceAwards/>
-      {/* <RegistrationPrice/> */}
+      <RegistrationModel/>
       {/* <Speakers />
       <Partnership /> */}
       <Newsletter />
