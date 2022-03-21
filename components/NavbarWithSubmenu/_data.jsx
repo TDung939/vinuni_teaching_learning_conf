@@ -40,20 +40,20 @@ export const links = [
   //     },
   //   ],
   // },
-  // {
-  //   label: 'Speakers',
-  //   href: '',
-  // },
-  // {
-  //   label: 'Host Partners',
-  //   href: '#',
-  // },
-  // {
-  //   label: 'Community',
-  //   href: '#',
-  // },
-  // {
-  //   label: 'FAQ',
-  //   href: '#',
-  // },
+  {
+    label: 'Speakers',
+    href: '',
+  },
+  {
+    label: 'Host Partners',
+    href: '#',
+  },
+  {
+    label: 'Community',
+    href: '#',
+  },
+  {
+    label: 'FAQ',
+    href: '#',
+  },
 ]
